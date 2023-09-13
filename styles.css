@@ -1,0 +1,58 @@
+/* CSS for the app */
+body {
+    padding: 10px;
+    background-color: #000014;
+    width: 100vw;
+    height: 100vh;
+}
+#app-bmi-calculator {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+  }
+  
+  .input-container-bmi-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  input[type="number"] {
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #calculate-button-bmi-calculator {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #calculate-button-bmi-calculator:hover {
+    background-color: #666;
+  }
+  
+  #output-container-bmi-calculator {
+    margin: 20px 0;
+  }
+  
+  #output-text-bmi-calculator {
+    font-size: 16px;
+  }
+  
