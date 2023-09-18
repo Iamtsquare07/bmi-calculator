@@ -1,39 +1,50 @@
 /* CSS for the app */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
 body {
     padding: 10px;
     background-color: #000014;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255, 217, 0, 0.61);
+    font-family: 'Croissant One', cursive;
+}
+
 #app-bmi-calculator {
     font-family: sans-serif;
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    color:white;
-  }
-  
-  .input-container-bmi-calculator {
+    color: white;
+}
+
+.input-container-bmi-calculator {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  label {
+}
+
+label {
     margin: 10px 0;
     font-size: 16px;
-  }
-  
-  input[type="number"] {
+}
+
+input[type="number"] {
     width: 200px;
     height: auto;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-  }
-  
-  #calculate-button-bmi-calculator {
+}
+
+#calculate-button-bmi-calculator {
     margin: 10px 0;
     padding: 10px 20px;
     background-color: #333;
@@ -42,17 +53,16 @@ body {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  #calculate-button-bmi-calculator:hover {
+}
+
+#calculate-button-bmi-calculator:hover {
     background-color: #666;
-  }
-  
-  #output-container-bmi-calculator {
+}
+
+#output-container-bmi-calculator {
     margin: 20px 0;
-  }
-  
-  #output-text-bmi-calculator {
+}
+
+#output-text-bmi-calculator {
     font-size: 16px;
-  }
-  
+}
