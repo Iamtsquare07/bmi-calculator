@@ -1,4 +1,3 @@
-// JavaScript for the app
 const heightInput = document.querySelector('#input-height-bmi-calculator');
 const weightInput = document.querySelector('#input-weight-bmi-calculator');
 const calculateButton = document.querySelector('#calculate-button-bmi-calculator');
