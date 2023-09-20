@@ -19,7 +19,7 @@ calculateButton.addEventListener('click', () => {
         if (bmi < 18.5) {
             outputText.innerHTML += ' You are underweight.';
         } else if (bmi < 25) {
-            outputText.innerHTML += ' You are at a very healthy weight. Keep it up';
+            outputText.innerHTML += ' You are at a very healthy weight. Keep it up!';
         } else if (bmi < 30) {
             outputText.innerHTML += ' You are overweight.';
         } else {
