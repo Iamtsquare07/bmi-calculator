@@ -17,16 +17,16 @@ calculateButton.addEventListener('click', () => {
 
         // Add additional information about the result
         if (bmi < 18.5) {
-            outputText.innerHTML += ' You are underweight.';
+            outputText.innerHTML += ' You are underweight, you need to eat more.';
         } else if (bmi < 25) {
-            outputText.innerHTML += ' You are at a very healthy weight. Keep it up!';
+            outputText.innerHTML += " It looks like you're really taking care of yourself. Excellent weight. Keep it up!";
         } else if (bmi < 30) {
-            outputText.innerHTML += ' You are overweight.';
+            outputText.innerHTML += ' You are overweight. You can excersice more to improve your BMI.';
         } else {
-            outputText.innerHTML += ' You are obese.';
+            outputText.innerHTML += ' You are obese, you may excercise more to start reducing your weight.';
         }
     } else {
-        heightInput.focus()
+        heightInput.focus();
         outputText.innerHTML += ' Please enter a valid height and weight';
     }
 
